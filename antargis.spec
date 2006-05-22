@@ -30,9 +30,13 @@ current features include:
 
 %description -l pl
 Battles of Antargis jest strategi± czasu rzeczywistego osadzon± w
-czasach ¶redniowiecznyc. Gracz jest bohaterem, który zosta³ zdradzony
-przez towarzyszy i który postanawia zjednoczyæ królestwo i odbudowaæ
-potêgê starego imperium.
+czasach ¶redniowiecznych. Gracz jest bohaterem, który zosta³ zdradzony
+przez towarzyszy i postanawia zjednoczyæ królestwo oraz odbudowaæ
+potêgê starego imperium. Dawne mity bêd± przecinaæ mu drogê.
+
+Gra jest obecnie intensywnie rozwijana. Aktualnie zawiera:
+- krótkie wprowadzenie do gry
+- pocz±tek w³a¶ciwej kampanii
 
 %prep
 %setup -q
