@@ -1,5 +1,5 @@
 Summary:	Battles of Antargis - medieval RTS
-Summary(pl):	Battles of Antargis - osadzona w ¶redniowieczu gra typu RTS
+Summary(pl.UTF-8):   Battles of Antargis - osadzona w Å›redniowieczu gra typu RTS
 Name:		antargis
 Version:	0.1.2
 Release:	0.1
@@ -28,15 +28,15 @@ current features include:
 - A short tutorial giving you an introduction to the gameplay
 - Beginning of a real campaign
 
-%description -l pl
-Battles of Antargis jest strategi± czasu rzeczywistego osadzon± w
-czasach ¶redniowiecznych. Gracz jest bohaterem, który zosta³ zdradzony
-przez towarzyszy i postanawia zjednoczyæ królestwo oraz odbudowaæ
-potêgê starego imperium. Dawne mity bêd± przecinaæ mu drogê.
+%description -l pl.UTF-8
+Battles of Antargis jest strategiÄ… czasu rzeczywistego osadzonÄ… w
+czasach Å›redniowiecznych. Gracz jest bohaterem, ktÃ³ry zostaÅ‚ zdradzony
+przez towarzyszy i postanawia zjednoczyÄ‡ krÃ³lestwo oraz odbudowaÄ‡
+potÄ™gÄ™ starego imperium. Dawne mity bÄ™dÄ… przecinaÄ‡ mu drogÄ™.
 
 Gra jest obecnie intensywnie rozwijana. Aktualnie zawiera:
-- krótkie wprowadzenie do gry
-- pocz±tek w³a¶ciwej kampanii
+- krÃ³tkie wprowadzenie do gry
+- poczÄ…tek wÅ‚aÅ›ciwej kampanii
 
 %prep
 %setup -q
