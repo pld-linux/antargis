@@ -1,5 +1,5 @@
 Summary:	Battles of Antargis - medieval RTS
-Summary(pl.UTF-8):   Battles of Antargis - osadzona w średniowieczu gra typu RTS
+Summary(pl.UTF-8):	Battles of Antargis - osadzona w średniowieczu gra typu RTS
 Name:		antargis
 Version:	0.1.2
 Release:	0.1
