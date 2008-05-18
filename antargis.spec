@@ -1,12 +1,12 @@
 Summary:	Battles of Antargis - medieval RTS
 Summary(pl.UTF-8):	Battles of Antargis - osadzona w średniowieczu gra typu RTS
 Name:		antargis
-Version:	0.1.2
+Version:	0.2.1.4
 Release:	0.1
 License:	GPL
 Group:		X11/Applications/Games/Strategy
-Source0:	http://download.berlios.de/antargis/%{name}-%{version}.tar.gz
-# Source0-md5:	94f8173e2eb1fea4d9d2949803055f87
+Source0:	http://download.berlios.de/antargis/%{name}-source-%{version}.tar.gz
+# Source0-md5:	8e45ba040ad025ddbf84a624ade97ea5
 URL:		http://antargis.berlios.de/
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL_image-devel
@@ -39,12 +39,13 @@ Gra jest obecnie intensywnie rozwijana. Aktualnie zawiera:
 - początek właściwej kampanii
 
 %prep
-%setup -q
+%setup -q -n %{name}-source-%{version}
 
 %build
-rake \
+ruby build.rb \
 	CC="%{__cc}" \
-	CXX="%{__cxx}"
+	CXX="%{__cxx}" \
+	COMPILE_PARAMS="%{rpmcflags} -fPIC"
 
 %install
 rm -rf $RPM_BUILD_ROOT
